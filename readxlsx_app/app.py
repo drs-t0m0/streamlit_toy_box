@@ -1,14 +1,5 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
-import time
-
-timestr = time.strftime("%Y%m%d-%H%M%S")
-
-
-def load_image(img):
-    im = Image.open(img)
-    return im
 
 
 def main():
